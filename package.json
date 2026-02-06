@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Portfolio website for Gabriel Paras Abiog",
   "private": true,
+  "homepage": "https://gabrielparasabiog.github.io/Portfolio_Gab",
   "dependencies": {
     "axios": "^1.6.0",
     "framer-motion": "^10.18.0",
@@ -14,8 +15,13 @@
     "react-router-dom": "^6.30.3",
     "react-scripts": "5.0.1"
   },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

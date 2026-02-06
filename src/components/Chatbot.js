@@ -26,7 +26,11 @@ const Chatbot = () => {
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
 
-  const apiBaseUrl = process.env.REACT_APP_API_BASE_URL || '';
+  const apiBaseUrl =
+    process.env.REACT_APP_API_BASE_URL ||
+    (window.location.hostname.endsWith('github.io')
+      ? 'https://portfolio-gab-backend.onrender.com'
+      : '');
   const apiCandidates = apiBaseUrl
     ? [`${apiBaseUrl.replace(/\/$/, '')}/api/chat`]
     : ['/api/chat', 'http://localhost:5000/api/chat'];
