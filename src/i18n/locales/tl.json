@@ -1,0 +1,133 @@
+{
+  "header": {
+    "title": "Gabriel Paras Abiog",
+    "subtitle": "AI Developer, Data Analyst, at Web Developer"
+  },
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "journey": "Paglalakbay",
+    "contact": "Kontak",
+    "onThisPage": "Laman ng page"
+  },
+  "notFound": {
+    "title": "Hindi Mahanap ang Pahina",
+    "message": "Paumanhin, ang pahinang hinahanap mo ay wala. Maaaring nailipat o natanggal na ito.",
+    "cta": "Bumalik sa Home"
+  },
+  "hero": {
+    "name": "Gabriel Paras Abiog",
+    "title": "AI Developer, Data Analyst, at Web Developer",
+    "description": "Masigasig na AI Developer at Data Analyst na may kadalubhasaan sa pagbuo ng matalinong sistema, pagsusuri ng kumplikadong dataset, at paghahatid ng de-kalidad na software solutions. Dalubhasa sa machine learning, full-stack development, at quality assurance na may napatunayang track record ng matagumpay na proyekto at sertipikasyon.",
+    "button1": "Makipag-ugnayan",
+    "button2": "Tingnan ang Proyekto",
+    "badge1": "🚀 15+ Proyekto",
+    "badge2": "🏆 8 Sertipikasyon",
+    "badge3": "💼 4+ Taong Karanasan"
+  },
+  "about": {
+    "title": "Tungkol Sa Akin",
+    "address": "📍",
+    "email": "📧",
+    "website": "🌐",
+    "summary1": "Ako ay isang masigasig at detalyadong Computer Science student sa FEU Institute of Technology, na dalubhasa sa AI development, data analysis, at quality assurance. Sa mahigit 4 na taon ng pinagsamang karanasan sa software development at customer service, matagumpay kong naibigay ang 15+ proyekto mula sa AI-powered chatbots hanggang sa data analytics systems.",
+    "summary2": "Ang aking kadalubhasaan ay sumasaklaw sa full-stack development, machine learning, at quality assurance. Nakapagtrabaho ako sa cutting-edge technologies tulad ng GPT-4, LangChain, at iba't ibang ML frameworks upang makabuo ng matalinong solusyon na tumutugon sa mga tunay na problema. Ang aking malakas na pundasyon sa testing at automation ay tinitiyak na ang bawat proyekto na aking ginagawa ay nakakatugon sa pinakamataas na pamantayan ng kalidad.",
+    "summary3": "Bukod sa teknikal na kasanayan, dala ko ang mahusay na kakayahan sa komunikasyon na nakuha sa 2 taon ng customer service experience, kung saan pinanatili ko ang HIPAA at financial compliance standards. Umuunlad ako sa collaborative environments at matagumpay na nanguna at lumahok sa maraming team projects, kabilang ang pag-organize ng major tech events tulad ng CS Expo 2024.",
+    "highlight1": "🎯 Mga Pokus na Larangan:",
+    "highlight1Text": "AI/ML Development, Data Analytics, Quality Assurance, Full-Stack Development",
+    "highlight2": "💡 Pasyon:",
+    "highlight2Text": "Pagbuo ng matalinong sistema na may tunay na epekto",
+    "highlight3": "🚀 Layunin:",
+    "highlight3Text": "Patuloy na pag-aaral at pag-ambag sa makabagong tech solutions"
+  },
+  "stats": {
+    "title": "Pangunahing Tagumpay at Metrics",
+    "projects": "Natapos na Proyekto",
+    "projectsDesc": "AI-powered applications at web solutions",
+    "technologies": "Natalunang Teknolohiya",
+    "technologiesDesc": "Mula Python hanggang React, full-stack expertise",
+    "collaborations": "Pakikipagtulungan sa Team",
+    "collaborationsDesc": "Matagumpay na cross-functional projects",
+    "certifications": "Sertipikasyon",
+    "certificationsDesc": "Industry-recognized credentials",
+    "testCoverage": "Test Coverage",
+    "testCoverageDesc": "Kahusayan sa quality assurance",
+    "aiProjects": "AI Projects",
+    "aiProjectsDesc": "Machine learning at deep learning models"
+  },
+  "skills": {
+    "title": "Mga Kasanayan",
+    "professional": "Professional Skills",
+    "technical": "Teknikal na Kasanayan",
+    "usingNow": "Ginagamit Ngayon",
+    "learning": "Natututunan",
+    "otherSkills": "Iba pang Kasanayan"
+  },
+  "resume": {
+    "title": "I-download ang Aking Resume",
+    "subtitle": "Kumuha ng kopya ng aking resume sa PDF format",
+    "name": "Buong Pangalan",
+    "email": "Email",
+    "location": "Lokasyon",
+    "download": "I-download ang Resume",
+    "note": "I-click ang button sa itaas upang i-download ang aking resume"
+  },
+  "experience": {
+    "title": "Propesyonal na Karanasan"
+  },
+  "projects": {
+    "title": "Mga Proyekto",
+    "achievements": "Pangunahing Tagumpay:"
+  },
+  "education": {
+    "title": "Edukasyon at Sertipikasyon",
+    "degree": "Bachelor of Science in Computer Science",
+    "institution": "FEU Institute of Technology",
+    "coursework": "Relevant Coursework:",
+    "certifications": "Sertipikasyon",
+    "activities": "Mga Aktibidad at Pamumuno"
+  },
+  "contact": {
+    "title": "Makipag-ugnayan",
+    "message": "Laging bukas ako sa pag-uusap tungkol sa bagong oportunidad, kawili-wiling proyekto, o simpleng pag-uusap tungkol sa teknolohiya at AI!",
+    "email": "I-email Ako",
+    "website": "Bisitahin ang Website",
+    "socialTitle": "Makipag-ugnayan Sa Akin"
+  },
+  "chatbot": {
+    "title": "Magtanong ka lang!",
+    "welcome": "Kumusta! Nandito ako upang tulungan kang matuto pa tungkol kay Gabriel. Magtanong ka lang!",
+    "preQuestions": "O subukan ang mga tanong na ito:",
+    "placeholder": "I-type ang iyong mensahe... (max 500 chars)",
+    "sending": "Nagpapadala...",
+    "error": "Paumanhin, may naganap na error. Pakisubukan ulit mamaya.",
+    "rateLimit": "Masyadong maraming request. Pakihintay sandali bago subukan ulit."
+  },
+  "blog": {
+    "title": "Aking Journey at mga Natutunan",
+    "categories": {
+      "all": "Lahat ng Posts",
+      "learning": "Pag-aaral",
+      "experience": "Karanasan",
+      "project": "Mga Proyekto"
+    },
+    "readMore": "Basahin Pa",
+    "readLess": "Itago",
+    "post1": {
+      "title": "Paano Ko Sinimulan ang Python at Nagmahal sa Programming",
+      "excerpt": "Sa pagbabalik-tanaw sa aking journey, ang Python ang language na talagang nagbukas ng aking mga mata sa kung ano ang kayang gawin ng programming. Nagsimula ito nang sinusubukan kong i-automate ang ilang repetitive tasks...",
+      "content": "Sa pagbabalik-tanaw sa aking journey, ang Python ang language na talagang nagbukas ng aking mga mata sa kung ano ang kayang gawin ng programming. Nagsimula ito nang sinusubukan kong i-automate ang ilang repetitive tasks sa aking daily work.\n\nNaalala ko na ginugugol ko ang oras sa paggawa ng pare-parehong bagay, at naisip kong dapat may mas magandang paraan. Doon ko natuklasan ang Python. Ang syntax ay napakalinis at madaling basahin na kahit bilang beginner, naiintindihan ko kung ano ang ginagawa ng code.\n\nAng talagang nag-hook sa akin ay nang isinulat ko ang aking unang script na nag-save sa akin ng oras ng trabaho. Ang pakiramdam ng pag-solve ng problema gamit ang code ay hindi kapani-paniwala. Mula doon, nagsimula akong mag-explore pa - data structures, object-oriented programming, at sa huli, machine learning.\n\nNgayon, ang Python ay ang aking go-to language para sa halos lahat - mula sa pagbuo ng APIs hanggang sa pag-train ng ML models. Ang community ay amazing, at palaging may bagong matututunan. Kung nagsisimula ka pa lang, ang aking payo ay magsimula sa maliliit na proyekto at magtayo mula doon."
+    },
+    "post2": {
+      "title": "Aking Unang Linggo bilang AI Developer Intern: Ano ang Natutunan Ko",
+      "excerpt": "Ang pagsisimula ng aking internship sa FEU Institute of Technology ay parehong exciting at nerve-wracking. Mayroon akong theoretical knowledge, ngunit ang paglalagay nito sa practice ay ibang kwento...",
+      "content": "Ang pagsisimula ng aking internship sa FEU Institute of Technology ay parehong exciting at nerve-wracking. Mayroon akong theoretical knowledge, ngunit ang paglalagay nito sa practice ay ibang kwento.\n\nSa aking unang araw, na-assign ako sa AI chatbot project. Akala ko alam ko na ang ginagawa ko, ngunit ang realidad ay tumama sa akin nang malakas. Ang codebase ay napakalaki, at ang pag-unawa kung paano kumonekta ang lahat ay overwhelming sa simula.\n\nAng nakatulong sa akin nang husto ay ang pagtatanong. Natutunan ko na walang kahihiyan sa hindi pag-alam ng isang bagay. Ang aking mga mentors ay mapagpasensya at palaging handang magpaliwanag. Natuklasan ko rin ang kahalagahan ng maingat na pagbabasa ng documentation - nakakatipid ito ng oras sa huli.\n\nSa pagtatapos ng unang linggo, nakasulat na ako ng aking unang test cases at naayos ang ilang bugs. Ang kasiyahan ng pagtingin sa aking code na gumagana sa production ay hindi mailarawan. Napagtanto ko na ang internships ay hindi lang tungkol sa kung ano ang alam mo - tungkol ito sa kung gaano kabilis ka matuto at mag-adapt."
+    },
+    "post3": {
+      "title": "Pagbuo ng TALA: Ang mga Hamon at Tagumpay ng Aking Capstone Project",
+      "excerpt": "Ang TALA ay higit pa sa school project para sa akin - ito ay pagkakataon na makabuo ng totoong bagay na maaaring gamitin ng mga tao. Ngunit, napakahirap...",
+      "content": "Ang TALA ay higit pa sa school project para sa akin - ito ay pagkakataon na makabuo ng totoong bagay na maaaring gamitin ng mga tao. Ngunit, napakahirap.\n\nAng ideya ay nanggaling sa aking sariling frustration sa calendar apps. Parang hindi nila naiintindihan ang talagang gusto ko. Kaya naisip ko, bakit hindi gumawa ng isa na gumagamit ng AI upang talagang tumulong?\n\nAng pinakamalaking hamon ay ang pagkuha ng AI scheduling algorithm na tama. Ginugol ko ang mga linggo sa pag-tweak nito, pag-test ng iba't ibang approach, at minsan pakiramdam ko ay paikot-ikot lang ako. May mga araw na gusto kong sumuko, ngunit patuloy akong nagtuloy.\n\nAng nagpatuloy sa akin ay ang pagtingin sa maliliit na tagumpay. Nang ang conflict detection ay sa wakas gumana nang tama, ako ay ecstatic. Nang ang API ay sumagot sa ilalim ng isang segundo, pakiramdam ko ay nakamit ko ang isang malaking bagay.\n\nAng testing phase ay matindi. Nagsulat ako ng mahigit 200 test cases, at bawat isa ay nagturo sa akin ng bagong bagay tungkol sa edge cases na hindi ko naisip. Ito ay nakakabagot na trabaho, ngunit ginawa nito ang final product na mas maganda."
+    }
+  }
+}
+

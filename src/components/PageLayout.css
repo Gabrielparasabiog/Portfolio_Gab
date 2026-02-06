@@ -1,0 +1,34 @@
+.page-layout {
+  position: relative;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-right: 260px;
+}
+
+.page-sidebar {
+  position: fixed;
+  top: 120px;
+  right: 24px;
+  width: 220px;
+  max-height: calc(100vh - 160px);
+  overflow-y: auto;
+  z-index: 900;
+}
+
+@media (max-width: 1200px) {
+  .page-content {
+    margin-right: 0;
+    gap: 2.5rem;
+  }
+
+  .page-sidebar {
+    position: static;
+    width: 100%;
+    max-height: none;
+    overflow: visible;
+  }
+}

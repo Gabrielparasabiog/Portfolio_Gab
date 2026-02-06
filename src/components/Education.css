@@ -1,0 +1,150 @@
+.education-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.education-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #667eea;
+}
+
+.education-item {
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 15px;
+  border-left: 4px solid #667eea;
+  position: relative;
+}
+
+.education-section-icon {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 2rem;
+  color: #667eea;
+  opacity: 0.3;
+}
+
+.section-icon {
+  display: inline-block;
+  margin-right: 0.5rem;
+  color: #667eea;
+  font-size: 1.2rem;
+}
+
+.app.light .education-item {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.institution {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  opacity: 0.9;
+}
+
+.coursework {
+  margin-top: 1rem;
+  line-height: 1.7;
+}
+
+.cert-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.cert-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 10px;
+  transition: var(--transition);
+}
+
+.app.light .cert-item {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.cert-item:hover {
+  transform: translateX(5px);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.app.light .cert-item:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.cert-icon {
+  font-size: 1.5rem;
+  color: #fbbf24;
+  filter: drop-shadow(0 2px 4px rgba(251, 191, 36, 0.3));
+}
+
+.activities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.activity-item {
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 15px;
+  border-left: 4px solid #764ba2;
+  transition: var(--transition);
+}
+
+.app.light .activity-item {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.activity-item:hover {
+  transform: translateX(5px);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.app.light .activity-item:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.activity-role {
+  font-weight: 600;
+  color: #764ba2;
+  font-size: 1.1rem;
+}
+
+.activity-date {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.activity-event {
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .cert-list {
+    grid-template-columns: 1fr;
+  }
+  
+  .activity-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
