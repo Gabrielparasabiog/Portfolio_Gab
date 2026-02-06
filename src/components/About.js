@@ -39,7 +39,7 @@ const About = () => {
             style={{ transformStyle: "preserve-3d" }}
           >
             <img 
-              src="/portrait-about.png" 
+              src={process.env.PUBLIC_URL + '/portrait-about.png'} 
               alt="Gabriel Paras Abiog" 
               className="profile-image"
             />

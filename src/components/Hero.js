@@ -62,7 +62,7 @@ const Hero = () => {
           transition={{ type: "spring", stiffness: 300 }}
         >
           <img 
-            src="/portrait-hero.png" 
+            src={process.env.PUBLIC_URL + '/portrait-hero.png'} 
             alt="Gabriel Paras Abiog" 
             className="hero-image"
           />
