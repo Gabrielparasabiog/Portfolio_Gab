@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Portfolio_Gab/static/css/main.8a575ee3.css",
+    "main.js": "/Portfolio_Gab/static/js/main.5a677309.js",
+    "index.html": "/Portfolio_Gab/index.html",
+    "main.8a575ee3.css.map": "/Portfolio_Gab/static/css/main.8a575ee3.css.map",
+    "main.5a677309.js.map": "/Portfolio_Gab/static/js/main.5a677309.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a575ee3.css",
+    "static/js/main.5a677309.js"
+  ]
+}
