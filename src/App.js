@@ -31,7 +31,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL || '/'}>
       <ScrollToTop />
       <div className={`app ${darkMode ? 'dark' : 'light'}`}>
         <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
