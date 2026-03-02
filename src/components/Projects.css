@@ -112,7 +112,7 @@
 }
 
 .achievements-title::before {
-  content: '✨';
+  content: '*';
   font-size: 1.2rem;
 }
 
@@ -134,7 +134,7 @@
 }
 
 .achievements-list li::before {
-  content: '✓';
+  content: '-';
   position: absolute;
   left: 0;
   color: #667eea;
@@ -147,4 +147,3 @@
     grid-template-columns: 1fr;
   }
 }
-

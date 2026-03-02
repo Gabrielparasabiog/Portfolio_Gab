@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "Gabriel Paras Abiog",
-    "subtitle": "AI Developer, Data Analyst, and Web Developer"
+    "subtitle": "AI Developer and Data Analyst"
   },
   "nav": {
     "home": "Home",
@@ -17,28 +17,28 @@
   },
   "hero": {
     "name": "Gabriel Paras Abiog",
-    "title": "AI Developer, Data Analyst, and Web Developer",
-    "description": "Passionate AI Developer and Data Analyst with expertise in building intelligent systems, analyzing complex datasets, and delivering high-quality software solutions. Specialized in machine learning, full-stack development, and quality assurance with a proven track record of successful projects and certifications.",
+    "title": "AI Developer and Data Analyst",
+    "description": "Detail-oriented and analytical Computer Science student specializing in quality assurance and software development, with hands-on experience in AI-driven applications, API testing, and debugging.",
     "button1": "Get In Touch",
     "button2": "View Projects",
     "badge1": "🚀 15+ Projects",
     "badge2": "🏆 8 Certifications",
-    "badge3": "💼 4+ Years Experience"
+    "badge3": "💼 3+ Years Experience"
   },
   "about": {
     "title": "About Me",
     "address": "📍",
     "email": "📧",
     "website": "🌐",
-    "summary1": "I'm a passionate and detail-oriented Computer Science student at FEU Institute of Technology, specializing in AI development, data analysis, and quality assurance. With over 4 years of combined experience in software development and customer service, I've successfully delivered 15+ projects ranging from AI-powered chatbots to data analytics systems.",
-    "summary2": "My expertise spans across full-stack development, machine learning, and quality assurance. I've worked with cutting-edge technologies like GPT-4, LangChain, and various ML frameworks to build intelligent solutions that solve real-world problems. My strong foundation in testing and automation ensures that every project I work on meets the highest quality standards.",
-    "summary3": "Beyond technical skills, I bring excellent communication abilities honed through 2 years of customer service experience, where I maintained HIPAA and financial compliance standards. I thrive in collaborative environments and have successfully led and participated in multiple team projects, including organizing major tech events like CS Expo 2024.",
+    "summary1": "Detail-oriented and analytical Computer Science student specializing in quality assurance and software development, with hands-on experience in AI-driven applications, API testing, and debugging.",
+    "summary2": "Skilled in designing test cases, tracking defects, and ensuring product reliability through both manual and automated testing. Adept at collaborating with cross-functional teams to enhance user experience and deliver high-quality solutions.",
+    "summary3": "Currently completing a Bachelor of Science in Computer Science at FEU Institute of Technology, with certifications in Python, Java, and networking.",
     "highlight1": "🎯 Focus Areas:",
-    "highlight1Text": "AI/ML Development, Data Analytics, Quality Assurance, Full-Stack Development",
+    "highlight1Text": "Quality Assurance, AI-driven Applications, API Testing",
     "highlight2": "💡 Passion:",
-    "highlight2Text": "Building intelligent systems that make a real impact",
+    "highlight2Text": "Delivering reliable software through structured testing and collaboration",
     "highlight3": "🚀 Goal:",
-    "highlight3Text": "Continuously learning and contributing to innovative tech solutions"
+    "highlight3Text": "Grow as an AI developer while building high-impact solutions"
   },
   "stats": {
     "title": "Key Achievements & Metrics",

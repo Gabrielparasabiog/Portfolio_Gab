@@ -1,7 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { FaProjectDiagram, FaRobot, FaGraduationCap, FaChalkboardTeacher } from 'react-icons/fa';
+import {
+  FaProjectDiagram,
+  FaRobot,
+  FaGraduationCap,
+  FaChalkboardTeacher,
+  FaStore,
+  FaShoppingBag
+} from 'react-icons/fa';
 import './Projects.css';
 
 const Projects = () => {
@@ -11,50 +18,66 @@ const Projects = () => {
       name: 'TALA: AI-Powered Calendar Assistant',
       type: 'Capstone Project',
       tech: ['Python', 'Java'],
-      description: 'A comprehensive AI-driven calendar management system that intelligently schedules and manages appointments. Developed and tested scheduling and calendar API features for functionality, accuracy, and edge cases.',
+      description:
+        'Developed and tested scheduling and calendar API features for functionality, accuracy, and edge cases.',
       achievements: [
-        'Achieved 95%+ test coverage with comprehensive unit and integration tests',
-        'Reduced scheduling conflicts by 80% through intelligent AI algorithms',
-        'Created 200+ test cases to verify UI consistency and backend logic reliability',
-        'Implemented real-time synchronization across multiple platforms'
+        'Created test cases to verify UI consistency and backend logic reliability.'
       ],
       icon: FaProjectDiagram
     },
     {
       name: 'FEU Tech AI Chatbot',
       tech: ['GPT-4', 'LangChain', 'MongoDB', 'Node.js', 'Express.js', 'React.js'],
-      description: 'An intelligent chatbot system for FEU Institute of Technology that provides instant responses to student inquiries. Leverages GPT-4 and LangChain for natural language understanding and semantic search.',
+      description:
+        'Designed API response validation tests to maintain chatbot accuracy after updates.',
       achievements: [
-        'Maintained 98%+ response accuracy through rigorous API validation tests',
-        'Optimized backend response time from 2.5s to 0.8s (68% improvement)',
-        'Handled 1000+ daily queries with 99.9% uptime',
-        'Implemented semantic search reducing irrelevant responses by 75%'
+        'Monitored performance metrics to detect delays and optimize backend response time.'
       ],
       icon: FaRobot
     },
     {
-      name: 'AI Skill Assessment Platform',
+      name: 'AI Skill Assessment',
       tech: ['Python', 'Node.js', 'MongoDB'],
-      description: 'A comprehensive AI-based evaluation system that assesses user proficiency through adaptive testing. Features intelligent question randomization, automated scoring, and detailed performance analytics.',
+      description:
+        'Built an AI-based evaluation system to assess user proficiency through interactive tests.',
       achievements: [
-        'Built automated scripts achieving 100% scoring accuracy',
-        'Implemented question randomization preventing cheating by 90%',
-        'Processed 5000+ assessments with zero data integrity issues',
-        'Reduced assessment time by 40% through AI-optimized question selection'
+        'Designed automated scripts to verify scoring accuracy, question randomization, and database integrity.'
       ],
       icon: FaGraduationCap
     },
     {
-      name: 'AI-Powered Virtual Tutor',
+      name: 'AI Tutor',
       tech: ['Python', 'OpenAI API', 'React.js'],
-      description: 'An intelligent virtual tutoring system that provides personalized learning recommendations based on individual student performance. Features adaptive difficulty levels and comprehensive progress tracking.',
+      description:
+        'Developed a virtual tutor providing personalized learning recommendations.',
       achievements: [
-        'Achieved 92% student satisfaction rate through personalized recommendations',
-        'Improved learning outcomes by 35% compared to traditional methods',
-        'Validated 100% lesson flow accuracy through comprehensive QA testing',
-        'Adaptive difficulty system increased engagement by 50%'
+        'Performed QA validation on lesson flow, content accuracy, and adaptive difficulty levels.'
       ],
       icon: FaChalkboardTeacher
+    },
+    {
+      name: 'E-Commerce Website',
+      tech: ['WooCommerce', 'Elementor'],
+      description:
+        'Developed a fully responsive e-commerce website from Figma design mockups.',
+      achievements: [
+        'Implemented WooCommerce product catalogs with categories, filters, variable products, and discount coupons.',
+        'Configured payment gateways (PayPal, Stripe) and shipping zones with dynamic rate rules.',
+        'Integrated WPForms for customer inquiries and automated email notifications.'
+      ],
+      icon: FaStore
+    },
+    {
+      name: 'Shopify Clothing Store',
+      tech: ['Shopify', 'Liquid', 'Meta Pixel', 'Mailchimp'],
+      description:
+        'Built and customized a Shopify store based on complete branding guidelines.',
+      achievements: [
+        'Configured product collections, tagging systems, search filters, and promotional discount automation.',
+        'Modified Shopify Liquid templates to adjust layout and reusable sections.',
+        'Optimized checkout flow and mobile responsiveness to improve user conversion.'
+      ],
+      icon: FaShoppingBag
     }
   ];
 
@@ -75,7 +98,7 @@ const Projects = () => {
       opacity: 1,
       rotateX: 0,
       transition: {
-        type: "spring",
+        type: 'spring',
         stiffness: 100,
         damping: 15
       }
@@ -83,15 +106,15 @@ const Projects = () => {
   };
 
   return (
-    <motion.section 
-      id="projects" 
+    <motion.section
+      id="projects"
       className="projects section"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.2 }}
       variants={containerVariants}
     >
-      <motion.h2 
+      <motion.h2
         className="section-title"
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -108,14 +131,14 @@ const Projects = () => {
               key={index}
               className="project-card"
               variants={cardVariants}
-              whileHover={{ 
-                y: -15, 
+              whileHover={{
+                y: -15,
                 rotateY: 5,
                 rotateX: 5,
                 scale: 1.02,
-                transition: { type: "spring", stiffness: 300 }
+                transition: { type: 'spring', stiffness: 300 }
               }}
-              style={{ transformStyle: "preserve-3d" }}
+              style={{ transformStyle: 'preserve-3d' }}
             >
               <div className="project-icon-wrapper">
                 <IconComponent className="project-icon" />
@@ -130,7 +153,7 @@ const Projects = () => {
                     key={idx}
                     className="tech-tag"
                     whileHover={{ scale: 1.1, y: -2 }}
-                    transition={{ type: "spring", stiffness: 400 }}
+                    transition={{ type: 'spring', stiffness: 400 }}
                   >
                     {tech}
                   </motion.span>
@@ -164,4 +187,3 @@ const Projects = () => {
 };
 
 export default Projects;
-

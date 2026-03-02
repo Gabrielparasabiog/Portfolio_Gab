@@ -62,14 +62,14 @@ const Chatbot = () => {
     {
       keywords: ['project', 'projects', 'portfolio', 'work'],
       response: [
-        'Gabriel has completed 15+ projects across AI, data analytics, and full-stack development.',
+        'Gabriel has completed 15+ projects across AI, QA, WordPress/WooCommerce, and Shopify development.',
         ' <a href="/portfolio#projects" class="chatbot-link">View projects</a>'
       ].join('')
     },
     {
       keywords: ['experience', 'work', 'job', 'intern', 'role'],
       response: [
-        'Gabriel has 4+ years of combined experience across AI development, data analysis, and QA.',
+        'Gabriel has experience across AI development, data analysis, QA, WordPress, and e-commerce projects.',
         ' <a href="/portfolio#experience" class="chatbot-link">View experience</a>'
       ].join('')
     },
@@ -473,4 +473,3 @@ const Chatbot = () => {
 };
 
 export default Chatbot;
-
