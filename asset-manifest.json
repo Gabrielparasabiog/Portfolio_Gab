@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Portfolio_Gab/static/css/main.8a575ee3.css",
-    "main.js": "/Portfolio_Gab/static/js/main.1a2a313d.js",
+    "main.css": "/Portfolio_Gab/static/css/main.798c6bbe.css",
+    "main.js": "/Portfolio_Gab/static/js/main.c63c3583.js",
     "index.html": "/Portfolio_Gab/index.html",
-    "main.8a575ee3.css.map": "/Portfolio_Gab/static/css/main.8a575ee3.css.map",
-    "main.1a2a313d.js.map": "/Portfolio_Gab/static/js/main.1a2a313d.js.map"
+    "main.798c6bbe.css.map": "/Portfolio_Gab/static/css/main.798c6bbe.css.map",
+    "main.c63c3583.js.map": "/Portfolio_Gab/static/js/main.c63c3583.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a575ee3.css",
-    "static/js/main.1a2a313d.js"
+    "static/css/main.798c6bbe.css",
+    "static/js/main.c63c3583.js"
   ]
 }
